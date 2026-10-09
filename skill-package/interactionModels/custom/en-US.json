@@ -1,0 +1,107 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "tv remote",
+      "intents": [
+        {
+          "name": "TVCommandIntent",
+          "slots": [
+            {
+              "name": "command",
+              "type": "TV_COMMANDS"
+            }
+          ],
+          "samples": [
+            "{command}",
+            "turn {command}",
+            "tell the tv to {command}",
+            "ask tv remote to {command}",
+            "please {command}"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "help",
+            "what can you do",
+            "how do I use this"
+          ]
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": [
+            "go home",
+            "open the home screen",
+            "return home"
+          ]
+        },
+        {
+          "name": "AMAZON.VolumeUpIntent",
+          "samples": [
+            "volume up",
+            "turn the volume up",
+            "increase the volume"
+          ]
+        },
+        {
+          "name": "AMAZON.VolumeDownIntent",
+          "samples": [
+            "volume down",
+            "turn the volume down",
+            "decrease the volume"
+          ]
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": [
+            "pause",
+            "stop playing",
+            "pause the TV"
+          ]
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": [
+            "resume",
+            "continue",
+            "play again"
+          ]
+        },
+        {
+          "name": "LaunchRequest",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "name": "TV_COMMANDS",
+          "values": [
+            { "name": { "value": "turn on the TV" } },
+            { "name": { "value": "turn off the TV" } },
+            { "name": { "value": "mute" } },
+            { "name": { "value": "unmute" } },
+            { "name": { "value": "volume up" } },
+            { "name": { "value": "volume down" } },
+            { "name": { "value": "play" } },
+            { "name": { "value": "pause" } },
+            { "name": { "value": "go home" } },
+            { "name": { "value": "go back" } },
+            { "name": { "value": "select" } },
+            { "name": { "value": "up" } },
+            { "name": { "value": "down" } },
+            { "name": { "value": "left" } },
+            { "name": { "value": "right" } }
+          ]
+        }
+      ]
+    }
+  }
+}

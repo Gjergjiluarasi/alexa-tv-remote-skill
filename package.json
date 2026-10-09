@@ -1,0 +1,15 @@
+{
+  "name": "alexa-tv-remote-skill",
+  "version": "1.0.0",
+  "description": "Alexa-hosted skill repository for controlling an Android TV over ADB",
+  "private": true,
+  "scripts": {
+    "test": "node --check lambda/index.js && node --check lambda/adbController.js"
+  },
+  "dependencies": {
+    "ask-sdk-core": "^2.14.0",
+    "ask-sdk-model": "^1.17.0",
+    "ask-sdk-runtime": "^2.14.0",
+    "axios": "^1.7.7"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:123456789012:function:tvRemoteSkill",
+          "sourceDir": "../lambda",
+          "sslCertificateType": "Wildcard"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "TV Remote",
+          "summary": "Control your Android TV with Alexa",
+          "description": "Use voice commands to turn the TV on and off, change volume, navigate menus, and execute common remote actions.",
+          "examplePhrases": [
+            "Alexa, ask TV remote to turn on the TV",
+            "Alexa, ask TV remote to volume up",
+            "Alexa, ask TV remote to go home"
+          ],
+          "keywords": [
+            "television",
+            "remote",
+            "android tv",
+            "home automation"
+          ],
+          "smallIconUri": "https://example.com/icon.png",
+          "largeIconUri": "https://example.com/icon.png"
+        }
+      }
+    },
+    "permissions": [],
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false,
+      "locales": {
+        "en-US": {
+          "privacyPolicyUrl": "https://example.com/privacy",
+          "termsOfUseUrl": "https://example.com/terms"
+        }
+      }
+    }
+  }
+}
