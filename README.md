@@ -55,7 +55,7 @@ This separation keeps the skill deployable in Amazon's hosted environment while 
 4. Set the environment variable `TV_REMOTE_BASE_URL` to your local service URL, for example:
 
    ```bash
-   http://192.168.1.50:8080
+   http://192.168.1.109:8080
    ```
 
 5. Test with phrases such as:
